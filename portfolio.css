@@ -8,6 +8,55 @@
    
 }
 
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    height: 15vh;
+    
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 15vh;
+    padding-top: 10px;
+    box-sizing: border-box;
+    
+}
+
+.left>img{
+    height: 15vh;
+    cursor: pointer;
+}
+
+.right{
+    width: 70%;
+    
+}
+
+.right>ul{
+    width: 70%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.right>ul>li>a{
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+}
+
+.right>ul>li> .active{
+    color: #e45447;
+}
+
+.right>ul>li>a:hover{
+    color: #e45447;
+    transition: .5s;
+}
 .work{
     height: 400vh;
     background: #F9F9FF;
